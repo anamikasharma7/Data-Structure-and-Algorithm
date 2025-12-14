@@ -1,0 +1,21 @@
+//Ticket Price Calculator: 
+// Create a program that asks the user for their age and 
+// checks if they qualify for a discounted ticket price (e.g., under 12 and over 65 get discounts), 
+// If they are eligible print “YES” else “NO”.
+
+#include<iostream>
+using namespace std;
+int main(){
+    int Age;
+    cout<<"Enter the age: ";
+    cin>>Age;
+    if(Age<12 || Age>65)
+    {
+        cout<<"Discount";
+    }
+    else
+    {
+        cout<<"No Discount";
+    }
+    return 0;
+}
